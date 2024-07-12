@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pick Your Pokemon</title>
+    <link rel = "stylesheet" href = "pokemon.css">
+</head>
+<body>
+    <h1 id = "header"> Please pick a type of pokemon.</h1>
+    <br>
+    <div class="dropdown">
+        <button class="dropbtn">Dropdown</button>
+        <div class="dropdown-content">
+          <a onclick="pokemonType('normal')">normal</a>
+          <a onclick="pokemonType('fighting')">fighting</a>
+          <a onclick="pokemonType('flying')">flying</a>
+          <a onclick="pokemonType('poison')">poison</a>
+          <a onclick="pokemonType('ground')">ground</a>
+          <a onclick="pokemonType('rock')">rock</a>
+          <a onclick="pokemonType('bug')">bug</a>
+          <a onclick="pokemonType('ghost')">ghost</a>
+          <a onclick="pokemonType('steel')">steel</a>
+          <a onclick="pokemonType('fire')">fire</a>
+          <a onclick="pokemonType('water')">water</a>
+          <a onclick="pokemonType('grass')">grass</a>
+          <a onclick="pokemonType('electric')">electric</a>
+          <a onclick="pokemonType('psychic')">psychic</a>
+          <a onclick="pokemonType('ice')">ice</a>
+          <a onclick="pokemonType('dragon')">dragon</a>
+          <a onclick="pokemonType('dark')">dark</a>
+          <a onclick="pokemonType('fairy')">fairy</a>
+          <a onclick="pokemonType('stellar')">stellar</a>
+          <a onclick="pokemonType('unknown')">unknown</a>
+        </div>
+      </div>
+      <h1 id = type></h1>
+      <ul id = "listPokemon">Pokemon-list</ul>
+      
+    <script src = "pokemon.js"></script>
+</body>
+</html>
